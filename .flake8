@@ -1,0 +1,6 @@
+[flake8]
+max-line-length = 90
+# E203 and W503 conflict with common formatter conventions; the line-break and
+# whitespace-before-colon rules are not worth fighting.
+extend-ignore = E203, W503
+exclude = .git, __pycache__, build, dist, .venv

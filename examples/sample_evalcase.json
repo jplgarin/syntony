@@ -1,0 +1,8 @@
+{
+  "output_text": "The study enrolled 200 patients. The drug reduced mortality by 30 percent. The treatment was effective for chronic pain. The drug was approved in 2019.",
+  "source_context": "A randomized controlled trial enrolled 200 patients across four sites. The drug reduced mortality by 30 percent compared to placebo. The treatment was not effective for chronic pain in the secondary endpoint.",
+  "metadata": {
+    "source": "example",
+    "note": "Claim 1 is supported, claim 2 is supported, claim 3 is contradicted, claim 4 is unsupported (the context is silent on approval)."
+  }
+}
