@@ -46,8 +46,19 @@ flowchart LR
 ## Install
 
 ```bash
-pip install syntony            # core, fully offline
-pip install 'syntony[nli]'     # adds the local NLI backend (transformers, torch)
+# core, fully offline
+pip install git+https://github.com/jplgarin/syntony.git
+
+# adds the local NLI backend (transformers, torch)
+pip install "syntony[nli] @ git+https://github.com/jplgarin/syntony.git"
+```
+
+From source, for development:
+
+```bash
+git clone https://github.com/jplgarin/syntony.git
+cd syntony
+pip install -e ".[dev]"
 ```
 
 ## Quickstart
